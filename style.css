@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Lateef&display=swap');
+
+body {
+    font-family: 'Lateef', serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    color: #08021b;
+    line-height: 1.8; /* تحسين تباعد الأسطر */
+    font-size: 1.75em; /* تكبير حجم النص الأساسي للفقرات */
+    direction: rtl; /* لجعل النص يقرأ من اليمين إلى اليسار */
+    text-align: center; /* جعل النصوص تصطف إلى اليمين */
+}
+
+header {
+    background-color: #24222b;
+    color: #fff;
+    padding: 1rem;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    text-align: center; /* ضبط القائمة لتكون من اليمين */
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold; /* لجعل النص في القائمة عريضًا */
+}
+
+h1 {
+    font-weight: bold;
+    font-size: 2.5em; /* حجم أكبر للعناوين الرئيسية */
+}
+
+h2 {
+    font-weight: bold;
+    font-size: 2em; /* حجم أكبر للعناوين الفرعية */
+}
+
+.hero {
+    text-align: center;
+    background: linear-gradient(to right, #06101a, #08021b);
+    padding: 50px 20px;
+    color: #fff;
+}
+
+.hero img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin: 20px 0;
+}
+
+.articles {
+    padding: 20px;
+    background-color: #fff;
+    text-align: right; /* ضبط النصوص لتكون محاذاة إلى اليمين */
+}
+
+.articles article {
+    margin-bottom: 20px;
+    border-bottom: 2px solid #ddd;
+    padding-bottom: 10px;
+}
+
+.contact-form {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: right; /* جعل النصوص في النموذج محاذاة إلى اليمين */
+}
+
+.contact-form label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.contact-form input,
+.contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-family: 'Lateef', serif; /* تطبيق الخط على حقول الإدخال */
+    font-size: 1.25em; /* تكبير حجم النص في الحقول */
+}
+
+.contact-form button {
+    background-color: #08021b;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: 'Lateef', serif;
+    font-size: 1.25em; /* تكبير حجم النص على الزر */
+}
+
+footer {
+    background-color: #08021b;
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    font-family: 'Lateef', serif;
+    font-size: 1.25em; /* تكبير حجم النص في التذييل */
+    direction: rtl; /* ضبط اتجاه النص في التذييل */
+}
+
